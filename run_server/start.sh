@@ -1,1 +1,1 @@
-$GOPATH/bin/marketstore start > server_log 2>&1 & 
+$GOPATH/bin/marketstore start > /home/market_data/server_log/loginfo 2>&1 & 
