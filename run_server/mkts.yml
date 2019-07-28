@@ -2,7 +2,7 @@
 # Auto-generated marketstore configuration.
 # -----------------------------------------
 # root directory of the database
-root_directory: /home/data
+root_directory: /home/market_data
 # listen port - the port exposed by the database server
 listen_port: 5993
 # log level (info|warn|error)
