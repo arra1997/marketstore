@@ -34,15 +34,15 @@ enable_last_known: false
 # Un-comment to enable.
 # ----------------------------------------
 #
-# triggers:
-#   - module: ondiskagg.so
-#     on: "*/1Min/OHLCV"
-#     config:
-#       destinations:
-#         - 5Min
-#         - 15Min
-#         - 1H
-#         - 1D
+triggers:
+  - module: ondiskagg.so
+    on: "*/1Min/OHLCV"
+    config:
+      destinations:
+        - 5Min
+        - 15Min
+        - 1H
+        - 1D
 #   - module: stream.so
 #     on: "*/*/*"
 #     config:
