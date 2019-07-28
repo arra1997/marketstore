@@ -1,1 +1,1 @@
-$GOPATH/bin/marketstore start > server_log 2>&1 & 
+sudo $GOPATH/bin/marketstore start > server_log 2>&1 & 
