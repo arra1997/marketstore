@@ -10,7 +10,7 @@ log_level: info
 # queryable - allows the database to be queried through a client connection
 queryable: true
 #
-stop_grace_period: 0
+stop_grace_period: 5
 #
 wal_rotate_interval: 5
 #
